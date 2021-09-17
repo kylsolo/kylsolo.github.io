@@ -11,7 +11,7 @@
         autostart: true
       }).appendTo(document.body);
       var rect = two.makeRectangle(two.width / 2, two.height / 2, 50 ,50);
-      var ellipse = new Two.Ellipse(x, y, width, height);
+      var ellipse = new Two.Ellipse(two.width / 2, two.height / 2, 50 ,50);
       two.bind('update', function() {
         rect.rotation += 0.001;
       });
